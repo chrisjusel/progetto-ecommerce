@@ -13,12 +13,20 @@ let users =
     {id: 1, name: 'Admin', lastName: 'Administrator', email: 'admin@admin.it', password: '123', admin: true}
 ];
 
-
+let items = 
+[
+    {id: 1, name: 'Scape', price: 50, description: 'Le scarpe più belle di Napoli', image: 'https://m.media-amazon.com/images/I/61yZW44DxoL._AC_UX500_.jpg'},
+    {id: 2, name: 'Pantalone', price: 30, description: 'Il pantalone più bello di Napoli', image: 'https://m.media-amazon.com/images/I/61yZW44DxoL._AC_UX500_.jpg'}
+]
 
 let count = users.length;
 
 app.get('/api/users', (request, response) => {
     response.json(users);
+})
+
+app.get('/api/items', (request, response) => {
+    response.json(items);
 })
 
 app.post('/api/users', (request, response) => {

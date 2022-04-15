@@ -14,3 +14,16 @@ input{
     padding: 0.6em 2em 0.6em 2em;
     border-radius: 25px;
 }
+
+#aggiungiProdotti input{
+    display: inline;
+    width: 15%;
+}
+
+th{
+    padding-right: 30px;
+}
+
+table{
+    margin-top: 2em;
+}
