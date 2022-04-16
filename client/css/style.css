@@ -6,7 +6,7 @@ input{
     border-radius: 25px;
     line-height: 2em;
     border: 1px solid black;
-    text-indent: 1em;
+    text-indent: 0.5em;
     margin-top: 4em
 }
 
@@ -20,10 +20,14 @@ input{
     width: 15%;
 }
 
-th{
-    padding-right: 30px;
+td{
+    padding: 30px;
 }
 
 table{
     margin-top: 2em;
+}
+
+table img{
+    width: 100px;
 }
